@@ -1,5 +1,6 @@
 #!/bin/bash
-#mkdir /var/sample
+mkdir /var/sample
+cp /home/ubuntu/index.html /var/sample
 
 cat <<EOF > /home/ubuntu/exercise1.conf
 server{

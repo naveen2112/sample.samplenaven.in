@@ -7,7 +7,7 @@ USERID=$(id -u)
 if [ "$USERID" -ne 0 ]
 then
 	echo " KINDY SWITCH TO ROOT USER"
-	exit 1;`
+	exit 1;
 fi
 
 

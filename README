@@ -7,7 +7,7 @@ STEP 2:(Install nginx)
   Execute the nginx_install.sh script to install nginx from debian repo and also enable the nginx
 
 STEP 3:(NGINX CONFIG)
-  Place the source code in /home/ubuntu
+  Place the source code ie., index.html  in /home/ubuntu
   EXecute the nginx_configuration.sh script to create a customized config file for hosting our website ( here it will create nginx confg file and restarted the nginx 
 
 SETP 4:(DSN CONFIGURE IN GODADY)

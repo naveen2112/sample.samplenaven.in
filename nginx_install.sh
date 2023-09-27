@@ -4,11 +4,11 @@
 
 apt update 
 
+sleep 5
 
+apt install nginx -y
 
- apt install nginx -y
-
-
+sleep 10
 
 VERSION=$(nginx -v)
 

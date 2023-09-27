@@ -1,0 +1,23 @@
+This file  is for hosting the static website in nginx sever with ssl certifcate bought from lets encrypt
+
+STEP 1:
+   execute the root_user.sh script to check the root privileage 
+
+STEP 2:(Install nginx)
+  Execute the nginx_install.sh script to install nginx from debian repo and also enable the nginx
+
+STEP 3:(NGINX CONFIG)
+  Place the source code in /home/ubuntu
+  EXecute the nginx_configuration.sh script to create a customized config file for hosting our website ( here it will create nginx confg file and restarted the nginx 
+
+setp 
+
+STEP 4:(INSTALL CERTBOT)
+  Here we are getting ssl from LETSENCRYPT so we need to install command line tool certbot for generting csr and getting ssl from lets encrypt 
+  for installing execute certbot_install.sh - it will install certbot from snap beceause snap has the updated version of certbot
+
+STEP 5:(OBTAIN SSL)
+    Execute the certbot_csr_cert.sh script it will prompt to enter the mail address and accepting T&D and finally ssl certificate will be generated and placed in /etc/letsencrypt/live/sample.samplenaveen.in
+
+ 
+   

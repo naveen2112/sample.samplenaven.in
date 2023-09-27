@@ -10,7 +10,8 @@ STEP 3:(NGINX CONFIG)
   Place the source code in /home/ubuntu
   EXecute the nginx_configuration.sh script to create a customized config file for hosting our website ( here it will create nginx confg file and restarted the nginx 
 
-setp 
+SETP 4:(DSN CONFIGURE IN GODADY)
+      Take the public ip of the server and host it to the hosted zone by creating a record TYPE A and name @ and Data "ip" and update TTL
 
 STEP 4:(INSTALL CERTBOT)
   Here we are getting ssl from LETSENCRYPT so we need to install command line tool certbot for generting csr and getting ssl from lets encrypt 
@@ -19,5 +20,5 @@ STEP 4:(INSTALL CERTBOT)
 STEP 5:(OBTAIN SSL)
     Execute the certbot_csr_cert.sh script it will prompt to enter the mail address and accepting T&D and finally ssl certificate will be generated and placed in /etc/letsencrypt/live/sample.samplenaveen.in
 
- 
+ Certbot automatically configured ssl in the custom nginx config file by the domain name
    
